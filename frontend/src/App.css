@@ -1,0 +1,33 @@
+.nav-buttons {
+  display: flex;
+}
+
+@media only screen and (max-width: 992px) {
+  .nav-buttons {
+    flex-direction: column;
+  }
+
+  .nav-btn {
+    margin-top: 10px;
+  }
+}
+
+.heroBanner {
+  min-height: 100vh;
+  width: 100% !important;
+  position: relative;
+  padding-bottom: 80px;
+}
+
+.space_heroBanner {
+  margin-top: 14rem;
+}
+
+.iconify {
+  width: 80px;
+  height: 80px;
+}
+
+.icon-font {
+  font-size: 24px;
+}

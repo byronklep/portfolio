@@ -4,7 +4,7 @@ import Slider from 'react-slick'
 export default class SimpleSlider extends Component {
   render() {
     var settings = {
-      dots: true,
+      dots: false,
       infinite: true,
       slidesToShow: 3,
       slidesToScroll: 1,
@@ -40,31 +40,77 @@ export default class SimpleSlider extends Component {
       ],
     }
     return (
-      <div className="container mb-5">
+      <div className="m-5 text-center">
         <Slider {...settings}>
           <div>
-            <h3>1</h3>
+            <span
+              className="iconify"
+              data-icon="vscode-icons:file-type-html"
+              data-inline="false"></span>
+            <p className="mt-2 icon-font">HTML</p>
           </div>
           <div>
-            <h3>2</h3>
+            <span
+              className="iconify"
+              data-icon="vscode-icons:file-type-css"
+              data-inline="false"></span>
+            <p className="mt-2 icon-font">CSS</p>
           </div>
           <div>
-            <h3>3</h3>
+            <span
+              className="iconify"
+              data-icon="logos:javascript"
+              data-inline="false"></span>
+            <p className="mt-2 icon-font">JavaScript</p>
           </div>
           <div>
-            <h3>4</h3>
+            <span
+              className="iconify"
+              data-icon="vscode-icons:file-type-node"
+              data-inline="false"></span>
+            <p className="mt-2 icon-font">Node</p>
           </div>
           <div>
-            <h3>5</h3>
+            <span
+              className="iconify"
+              data-icon="logos:react"
+              data-inline="false"></span>
+            <p className="mt-2 icon-font">React</p>
           </div>
           <div>
-            <h3>6</h3>
+            <span
+              className="iconify"
+              data-icon="vscode-icons:file-type-mongo"
+              data-inline="false"></span>
+            <p className="mt-2 icon-font">Mongo</p>
           </div>
           <div>
-            <h3>7</h3>
+            <span
+              className="iconify"
+              data-icon="logos:bootstrap"
+              data-inline="false"></span>
+            <p className="mt-2 icon-font">Bootstrap</p>
           </div>
           <div>
-            <h3>8</h3>
+            <span
+              className="iconify"
+              data-icon="logos:git-icon"
+              data-inline="false"></span>
+            <p className="mt-2 icon-font">Git</p>
+          </div>
+          <div>
+            <span
+              className="iconify"
+              data-icon="logos:heroku-icon"
+              data-inline="false"></span>
+            <p className="mt-2 icon-font">Heroku</p>
+          </div>
+          <div>
+            <span
+              className="iconify"
+              data-icon="logos:netlify"
+              data-inline="false"></span>
+            <p className="mt-2 icon-font">Netlify</p>
           </div>
         </Slider>
       </div>
