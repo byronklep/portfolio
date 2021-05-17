@@ -28,7 +28,7 @@ const Banner = () => {
               <br />
               Check out my work.
             </p>
-            <p>
+            <p className="ml-5">
               <Link to="/about">
                 <Button variant="primary">About me</Button>
               </Link>

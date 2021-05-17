@@ -1,16 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+  font-family: 'Poppins', sans-serif;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+/* Navigation */
+
 .nav-buttons {
   display: flex;
 }
 
-@media only screen and (max-width: 992px) {
-  .nav-buttons {
-    flex-direction: column;
-  }
-
-  .nav-btn {
-    margin-top: 10px;
-  }
+.iconify {
+  width: 80px;
+  height: 80px;
 }
+
+.icon-font {
+  font-size: 24px;
+}
+
+/* Home Page */
 
 .heroBanner {
   min-height: 100vh;
@@ -22,12 +35,30 @@
 .space_heroBanner {
   margin-top: 14rem;
 }
-
-.iconify {
-  width: 80px;
-  height: 80px;
+.space_heroBanner img {
+  border: 2px solid white;
 }
 
-.icon-font {
-  font-size: 24px;
+.card-horizontal {
+  display: flex;
+  flex: 1 1 auto;
+}
+
+/* Media Queries */
+
+@media only screen and (max-width: 992px) {
+  .nav-buttons {
+    flex-direction: column;
+  }
+
+  .card-horizontal {
+    flex-direction: column;
+  }
+  .card-horizontal img {
+    width: 100%;
+  }
+
+  .nav-btn {
+    margin-top: 10px;
+  }
 }

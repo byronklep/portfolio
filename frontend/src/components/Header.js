@@ -16,10 +16,10 @@ const Header = () => {
 
           <Form inline>
             <div className="nav-buttons">
-              <Button className="mr-2" variant="outline-secondary">
+              {/* <Button className="mr-2" variant="outline-secondary">
                 GitHub <i className="fab fa-github"></i>
-              </Button>
-              <Button className='nav-btn' variant="outline-info">
+              </Button> */}
+              <Button className="nav-btn" variant="outline-info">
                 Resume <i className="fas fa-file"></i>
               </Button>
             </div>
