@@ -10,12 +10,12 @@ const Services = () => {
           </Col>
         </Row>
         <Row>
-          <Accordion defaultActiveKey="0">
-            <Card>
+          <Accordion defaultActiveKey="0" className="acc">
+            <Card className="acc">
               <Accordion.Toggle
                 as={Card.Header}
                 eventKey="0"
-                className="text-center">
+                className="accord-header">
                 Frontend <i className="fas fa-laptop-code"></i>
               </Accordion.Toggle>
               <Accordion.Collapse eventKey="0">
@@ -42,11 +42,11 @@ const Services = () => {
                 </Card.Body>
               </Accordion.Collapse>
             </Card>
-            <Card>
+            <Card className="acc">
               <Accordion.Toggle
                 as={Card.Header}
                 eventKey="1"
-                className="text-center">
+                className="accord-header">
                 Backend <i className="fas fa-database"></i>
               </Accordion.Toggle>
               <Accordion.Collapse eventKey="1">
@@ -74,11 +74,11 @@ const Services = () => {
                 </Card.Body>
               </Accordion.Collapse>
             </Card>
-            <Card>
+            <Card className="acc">
               <Accordion.Toggle
                 as={Card.Header}
                 eventKey="2"
-                className="text-center">
+                className="accord-header">
                 DevOPs <i className="fab fa-connectdevelop"></i>
               </Accordion.Toggle>
               <Accordion.Collapse eventKey="2">

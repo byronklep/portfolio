@@ -44,6 +44,14 @@ a:link {
   flex: 1 1 auto;
 }
 
+.accord-header {
+  background-color: #fff;
+}
+
+.acc {
+  border: none;
+}
+
 /* Media Queries */
 
 @media only screen and (max-width: 992px) {
