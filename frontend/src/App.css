@@ -161,6 +161,12 @@ a:link {
   margin-bottom: 175px;
 }
 
+.cards {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+}
+
 /* Media Queries */
 
 @media only screen and (max-width: 992px) {

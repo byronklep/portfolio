@@ -37,44 +37,30 @@ const ProjGridHome = () => {
           </Col>
         </Row>
         <Row>
-          <Col md={6}>
-            {data.projects.map((pjt, _id) => (
-              <Card className="project-card">
-                <Link to="/projects">
-                  <Card.Img variant="top" src={pjt.image1} />
-                </Link>
-                <Card.Body>
-                  <Link to="/projects">
-                    <Card.Title as="h3">{pjt.title}</Card.Title>
+          <Col>
+            <div className="cards">
+              {data.projects.map((pjt, _id) => (
+                <Card className="project-card">
+                  <Link to={`/projects/${pjt._id}`}>
+                    <Card.Img variant="top" src={pjt.image1} />
                   </Link>
-                  <Card.Text className="pjt-card-text">
-                    {pjt.description}
-                  </Card.Text>
-                  <Link to="/projects">
-                    <Button variant="primary">Learn more</Button>
-                  </Link>
-                </Card.Body>
-              </Card>
-            ))}
+                  <Card.Body>
+                    <Link to={`/projects/${pjt._id}`}>
+                      <Card.Title as="h3">{pjt.title}</Card.Title>
+                    </Link>
+                    <Card.Text className="pjt-card-text">
+                      {pjt.description}
+                    </Card.Text>
+                    <Link to={`/projects/${pjt._id}`}>
+                      <Button variant="primary">Learn more</Button>
+                    </Link>
+                  </Card.Body>
+                </Card>
+              ))}
+            </div>
           </Col>
         </Row>
       </Container>
-      {/* <div className="container mt-3 text-center">
-        <Jumbotron>
-          <h1 className="text-danger">Projects</h1>
-        </Jumbotron>
-
-        <Row>
-          <br />
-          <Col>
-            <section className="cards">
-             
-                <ProjItem key={_id} pjt={pjt} />
-           
-            </section>
-          </Col>
-        </Row>
-      </div> */}
     </>
   )
 }

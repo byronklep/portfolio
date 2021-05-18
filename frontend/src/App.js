@@ -15,8 +15,8 @@ function App() {
       <Header />
       <Route path="/about" component={AboutPage} />
       <Route path="/contact" component={ContactPage} />
-      <Route path="/projects/:id" component={ProjectPage} />
-      <Route path="/projects" component={ProjectsPage} />
+      <Route path="/projects/:id" component={ProjectPage} exact />
+      <Route path="/projects" component={ProjectsPage} exact />
       <Route path="/services" component={ServicesPage} />
       <Route path="/" component={HomePage} exact />
       <Footer />
