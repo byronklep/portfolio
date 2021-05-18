@@ -1,4 +1,5 @@
 import { Container, Row, Col, Form, Button } from 'react-bootstrap'
+import { Link } from 'react-router-dom'
 
 const Contact = () => {
   return (
@@ -6,7 +7,10 @@ const Contact = () => {
       <Container>
         <Row>
           <Col className="text-center">
-            <h1>Contact</h1>
+            <Link to="/contact">
+              <h1 className="main-font">Contact</h1>
+            </Link>
+
             <hr />
           </Col>
         </Row>

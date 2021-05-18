@@ -1,7 +1,13 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Ubuntu:wght@700&display=swap');
 
 * {
   font-family: 'Poppins', sans-serif;
+}
+
+.main-font {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2.6rem;
+  text-transform: uppercase;
 }
 
 a:link {
@@ -39,6 +45,17 @@ a:link {
   border: 2px solid white;
 }
 
+.codingBanner {
+  min-height: 80vh;
+  width: 100% !important;
+  position: relative;
+  padding-bottom: 80px;
+}
+
+.coding_heroBanner {
+  margin-top: 10rem;
+}
+
 .card-horizontal {
   display: flex;
   flex: 1 1 auto;
@@ -50,6 +67,67 @@ a:link {
 
 .acc {
   border: none;
+}
+
+.logo-slider-container {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.services-container {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.projects-container {
+  margin-top: 125px;
+  margin-bottom: 100px;
+}
+
+/* Accordian */
+
+.panel-wrap {
+  margin-bottom: 5px;
+}
+
+.panel-wrap.active-panel .panel-header {
+  background: #396ea5;
+}
+.panel-wrap.active-panel .panel-header button {
+  color: #ffffff;
+}
+
+.panel-header {
+  border: 1px solid #cccc;
+  font-weight: normal;
+  border-radius: 5px 5px 0px 0px;
+}
+
+.panel-header button {
+  border: none;
+  background: transparent;
+}
+.panel-header button:focus {
+  outline: 0px auto -webkit-focus-ring-color;
+}
+
+.panel-body {
+  border: 1px solid #dddddd;
+  background: #efefef;
+  color: #333333;
+  padding: 5px;
+  border-top: none;
+}
+
+.test-font {
+  font-size: 2rem;
+  margin: 0.5rem;
+  padding: 1rem;
+}
+
+.testimonial-container {
+  padding-top: 10px;
+  padding-bottom: 100px;
 }
 
 /* Media Queries */

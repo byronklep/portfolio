@@ -40,7 +40,7 @@ export default class SimpleSlider extends Component {
       ],
     }
     return (
-      <div className="m-5 text-center">
+      <div className="logo-slider-container text-center">
         <Slider {...settings}>
           <div>
             <span

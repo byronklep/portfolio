@@ -1,4 +1,5 @@
 import { Container, Row, Col, Card } from 'react-bootstrap'
+import { Link } from 'react-router-dom'
 import project1 from '../../../img/projects/project1.jpg'
 import project2 from '../../../img/projects/project2.jpg'
 import project3 from '../../../img/projects/project3.jpg'
@@ -7,10 +8,12 @@ import project4 from '../../../img/projects/project4.jpg'
 const Projects = () => {
   return (
     <>
-      <Container>
+      <Container className="projects-container">
         <Row>
           <Col className="text-center">
-            <h1>Projects</h1>
+            <Link to="/projects">
+              <h1 className="main-font mb-5">Projects</h1>
+            </Link>
           </Col>
         </Row>
         <Row>
