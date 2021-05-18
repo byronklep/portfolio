@@ -27,7 +27,9 @@ const Accord = () => {
                 className="panel-toggle"
                 variant="link"
                 eventKey="0">
-                Frontend <i className="fas fa-laptop-code"></i>
+                <h3>
+                  Frontend <i className="fas fa-laptop-code"></i>
+                </h3>
               </Accordion.Toggle>
             </div>
 
@@ -51,7 +53,9 @@ const Accord = () => {
                 className="panel-toggle"
                 variant="link"
                 eventKey="1">
-                Backend <i className="fas fa-database"></i>
+                <h3>
+                  Backend <i className="fas fa-database"></i>
+                </h3>
               </Accordion.Toggle>
             </div>
 
@@ -74,7 +78,9 @@ const Accord = () => {
                 className="panel-toggle"
                 variant="link"
                 eventKey="2">
-                DevOPs <i className="fab fa-connectdevelop"></i>
+                <h3>
+                  DevOPs <i className="fab fa-connectdevelop"></i>
+                </h3>
               </Accordion.Toggle>
             </div>
 

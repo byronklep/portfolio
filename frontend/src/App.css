@@ -91,10 +91,10 @@ a:link {
 }
 
 .panel-wrap.active-panel .panel-header {
-  background: #396ea5;
+  background: #292b2c;
 }
 .panel-wrap.active-panel .panel-header button {
-  color: #ffffff;
+  color: #f7f7f7;
 }
 
 .panel-header {
@@ -117,6 +117,7 @@ a:link {
   color: #333333;
   padding: 5px;
   border-top: none;
+  font-size: 1.5rem;
 }
 
 .test-font {
@@ -128,6 +129,22 @@ a:link {
 .testimonial-container {
   padding-top: 10px;
   padding-bottom: 100px;
+}
+
+.project-card {
+  margin: 2rem;
+}
+.project-card img {
+  height: 300px;
+}
+
+.pjt-card-text {
+  font-size: 1.8rem;
+}
+
+.contact-container {
+  margin-top: 30px;
+  margin-bottom: 150px;
 }
 
 /* Media Queries */
