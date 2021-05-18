@@ -6,51 +6,52 @@ const Footer = () => {
           <section className="mb-4">
             <a
               className="btn btn-outline-light btn-floating m-1"
-              href="#!"
-              role="button">
-              <i className="fab fa-facebook-f"></i>
-            </a>
-
-            <a
-              className="btn btn-outline-light btn-floating m-1"
-              href="#!"
-              role="button">
-              <i className="fab fa-twitter"></i>
-            </a>
-
-            <a
-              className="btn btn-outline-light btn-floating m-1"
-              href="#!"
+              href="mailto:sam@samklepper.com"
+              target="_blank"
+              rel="noreferrer"
               role="button">
               <i className="fab fa-google"></i>
             </a>
 
             <a
               className="btn btn-outline-light btn-floating m-1"
-              href="#!"
+              href="tel:7133769541"
+              target="_blank"
+              rel="noreferrer"
               role="button">
-              <i className="fab fa-instagram"></i>
+              <i className="fas fa-phone"></i>
             </a>
 
             <a
               className="btn btn-outline-light btn-floating m-1"
-              href="#!"
+              href="https://github.com/samklep"
+              target="_blank"
+              rel="noreferrer"
+              role="button">
+              <i className="fab fa-github"></i>
+            </a>
+
+            <a
+              className="btn btn-outline-light btn-floating m-1"
+              href="https://linkedin.com"
+              target="_blank"
+              rel="noreferrer"
               role="button">
               <i className="fab fa-linkedin-in"></i>
             </a>
 
             <a
               className="btn btn-outline-light btn-floating m-1"
-              href="#!"
+              href="https://twitter.com"
+              target="_blank"
+              rel="noreferrer"
               role="button">
-              <i className="fab fa-github"></i>
+              <i className="fab fa-twitter"></i>
             </a>
           </section>
         </div>
 
-        <div
-          className="text-center p-3"
-          style={{ backgroundColor: 'rgba(0, 0, 0, 0.2);' }}>
+        <div className="text-center p-3">
           © 2021 |
           <a className="text-white pl-1" href="/">
             samklepper.com

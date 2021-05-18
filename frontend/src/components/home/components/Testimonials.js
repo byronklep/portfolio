@@ -6,7 +6,7 @@ function SampleNextArrow(props) {
   return (
     <div
       className={className}
-      style={{ ...style, display: 'block', background: 'red' }}
+      style={{ ...style, display: 'block', background: 'transparent' }}
       onClick={onClick}
     />
   )
@@ -17,7 +17,7 @@ function SamplePrevArrow(props) {
   return (
     <div
       className={className}
-      style={{ ...style, display: 'block', background: 'green' }}
+      style={{ ...style, display: 'block', background: 'transparent' }}
       onClick={onClick}
     />
   )
@@ -70,7 +70,7 @@ export default class Testimonials extends Component {
                 Vestibulum placerat, lorem id bibendum egestas.
               </p>
               <footer className="blockquote-footer text-center">
-                Someone famous in <cite title="Source Title">Source Title</cite>
+                John Doe <cite title="Source Title">Digital Crafts</cite>
               </footer>
             </blockquote>
           </div>
@@ -81,7 +81,7 @@ export default class Testimonials extends Component {
                 Vestibulum placerat, lorem id bibendum egestas.
               </p>
               <footer className="blockquote-footer text-center">
-                Someone famous in <cite title="Source Title">Source Title</cite>
+                John Doe <cite title="Source Title">Digital Crafts</cite>
               </footer>
             </blockquote>
           </div>
@@ -92,7 +92,7 @@ export default class Testimonials extends Component {
                 Vestibulum placerat, lorem id bibendum egestas.
               </p>
               <footer className="blockquote-footer text-center">
-                Someone famous in <cite title="Source Title">Source Title</cite>
+                John Doe <cite title="Source Title">Digital Crafts</cite>
               </footer>
             </blockquote>
           </div>
@@ -103,7 +103,7 @@ export default class Testimonials extends Component {
                 Vestibulum placerat, lorem id bibendum egestas.
               </p>
               <footer className="blockquote-footer text-center">
-                Someone famous in <cite title="Source Title">Source Title</cite>
+                John Doe <cite title="Source Title">Digital Crafts</cite>
               </footer>
             </blockquote>
           </div>
@@ -114,7 +114,7 @@ export default class Testimonials extends Component {
                 Vestibulum placerat, lorem id bibendum egestas.
               </p>
               <footer className="blockquote-footer text-center">
-                Someone famous in <cite title="Source Title">Source Title</cite>
+                John Doe <cite title="Source Title">Digital Crafts</cite>
               </footer>
             </blockquote>
           </div>
@@ -125,7 +125,7 @@ export default class Testimonials extends Component {
                 Vestibulum placerat, lorem id bibendum egestas.
               </p>
               <footer className="blockquote-footer text-center">
-                Someone famous in <cite title="Source Title">Source Title</cite>
+                John Doe <cite title="Source Title">Digital Crafts</cite>
               </footer>
             </blockquote>
           </div>

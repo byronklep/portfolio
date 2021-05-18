@@ -24,6 +24,29 @@ const getProjects = asyncHandler(async (req, res) => {
   res.json({ projects, page, pages: Math.ceil(count / pageSize) })
 })
 
+// @desc    Fetch all products
+// @route   GET /api/products
+// @access  Public
+const getFourProjects = asyncHandler(async (req, res) => {
+  const pageSize = 4
+  const page = Number(req.query.pageNumber) || 1
+  const keyword = req.query.keyword
+    ? {
+        title: {
+          $regex: req.query.keyword,
+          $options: 'i',
+        },
+      }
+    : {}
+
+  const count = await Project.countDocuments({ ...keyword })
+  const projects = await Project.find({ ...keyword })
+    .limit(pageSize)
+    .skip(pageSize * (page - 1))
+
+  res.json({ projects, page, pages: Math.ceil(count / pageSize) })
+})
+
 // @desc    Fetch single product
 // @route   GET /api/products/:id
 // @access  Public
@@ -110,6 +133,7 @@ export {
   getProjects,
   getProjectById,
   deleteProject,
+  getFourProjects,
   // createProject,
   // updateProject,
 }
