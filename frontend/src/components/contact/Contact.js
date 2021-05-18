@@ -1,7 +1,11 @@
+import ContactBanner from './components/ContactBanner'
+import ContactForm from './components/ContactForm'
+
 const Contact = () => {
   return (
     <>
-      <h1>Contact</h1>
+      <ContactBanner />
+      <ContactForm />
     </>
   )
 }

@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import axios from 'axios'
-import { Row, Col, Jumbotron } from 'react-bootstrap'
+import { Row, Col } from 'react-bootstrap'
 import ProjectItem from './ProjectItem'
 
 const ProjectsGrid = () => {
@@ -27,10 +27,6 @@ const ProjectsGrid = () => {
 
   return (
     <div className="container mt-3 text-center">
-      <Jumbotron>
-        <h1 className="text-danger">Projects</h1>
-      </Jumbotron>
-
       <Row>
         <br />
         <Col>

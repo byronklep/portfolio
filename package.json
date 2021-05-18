@@ -1,7 +1,7 @@
 {
-  "name": "port-2021",
+  "name": "portfolio",
   "version": "1.0.0",
-  "description": "web dev portfolio",
+  "description": "may 2021 web dev portfolio",
   "main": "server.js",
   "type": "module",
   "scripts": {
