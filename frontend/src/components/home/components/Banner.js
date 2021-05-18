@@ -1,10 +1,18 @@
+import React, { useEffect, useState } from 'react'
 import { Container, Button } from 'react-bootstrap'
 import { Link } from 'react-router-dom'
 import { Parallax } from 'react-parallax'
+import WOW from 'wowjs'
+
 import Space from '../../../img/spaceEarth.jpeg'
 import Sam from '../../../img/sam.png'
 
 const Banner = () => {
+  useEffect(() => {
+    const wow = new WOW.WOW()
+    wow.init()
+  }, [])
+
   return (
     <>
       <Parallax
@@ -13,7 +21,7 @@ const Banner = () => {
         bgImage={Space}
         className="heroBanner ">
         <div className="space_heroBanner">
-          <Container className="text-light">
+          <Container className="text-light wow fadeInUp">
             <img
               src={Sam}
               className="rounded-circle mb-3"
@@ -22,8 +30,8 @@ const Banner = () => {
               width={200}
             />
 
-            <h1>Hello, I am Sam.</h1>
-            <p className="lead">
+            <h1 className="main-font1">Hello, I am Sam.</h1>
+            <p className="main-font2">
               I am a full-stack developer from Houston, TX.
               <br />
               Check out my work.

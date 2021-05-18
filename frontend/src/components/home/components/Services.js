@@ -5,7 +5,7 @@ import Accord from './Accord'
 const Services = () => {
   return (
     <>
-      <Container className="services-container">
+      <Container className="services-container wow slideInLeft">
         <Row>
           <Col className="text-center">
             <Link to="/services">

@@ -1,6 +1,5 @@
 import Banner from './components/Banner'
 import SimpleSlider from './components/SimpleSlider'
-import Projects from './components/Projects'
 import Contact from './components/Contact'
 import Services from './components/Services'
 import Banner2 from './components/Banner2'
@@ -14,7 +13,6 @@ const Home = () => {
       <SimpleSlider />
       <Services />
       <Banner2 />
-      {/* <Projects /> */}
       <ProjGridHome />
       <Test />
       <Contact />

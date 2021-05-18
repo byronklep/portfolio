@@ -4,17 +4,15 @@ import { Link } from 'react-router-dom'
 import { Row, Col, Image, ListGroup } from 'react-bootstrap'
 
 const ProjectPage = ({ match }) => {
-  const [serial, setSerial] = useState({})
+  const [data, setData] = useState({})
 
   useEffect(() => {
-    const fetchSerials = async () => {
+    const fetchData = async () => {
       const { data } = await axios.get(`/api/projects/${match.params.id}`)
-
-      // console.log(data)
-      setSerial(data)
+      setData(data)
     }
 
-    fetchSerials()
+    fetchData()
     // eslint-disable-next-line
   }, [match])
 
@@ -25,22 +23,22 @@ const ProjectPage = ({ match }) => {
       </Link>
       <Row className="justify-content-md-center  mb-5">
         <Col md={6}>
-          <Image src={serial.image1} alt={serial.title} fluid />
+          <Image src={data.image1} alt={data.title} fluid />
         </Col>
         <Col md={3}>
           <ListGroup variant="flush">
             <ListGroup.Item>
               <strong>
-                <h3>{serial.title}</h3>
+                <h3>{data.title}</h3>
               </strong>
             </ListGroup.Item>
             <ListGroup.Item>
               <strong>
-                <h5>{serial.subtitle}</h5>
+                <h5>{data.subtitle}</h5>
               </strong>
             </ListGroup.Item>
             <ListGroup.Item>
-              <h6>{serial.description}</h6>
+              <h6>{data.description}</h6>
             </ListGroup.Item>
           </ListGroup>
         </Col>
