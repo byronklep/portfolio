@@ -16,12 +16,11 @@ const Header = () => {
 
           <Form inline>
             <div className="nav-buttons">
-              {/* <Button className="mr-2" variant="outline-secondary">
-                GitHub <i className="fab fa-github"></i>
-              </Button> */}
-              <Button className="nav-btn" variant="outline-info">
-                Resume <i className="fas fa-file"></i>
-              </Button>
+              <a href="img/resume.pdf" target="_blank" rel="noreferrer">
+                <Button className="nav-btn" variant="outline-info">
+                  Resume <i className="fas fa-file"></i>
+                </Button>
+              </a>
             </div>
           </Form>
         </Navbar.Collapse>
