@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import React, { useEffect } from 'react'
 import { Container, Button } from 'react-bootstrap'
 import { Link } from 'react-router-dom'
 import { Parallax } from 'react-parallax'
