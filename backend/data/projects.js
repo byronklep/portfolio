@@ -7,9 +7,9 @@ const projects = [
     techUsed:
       'HTML, CSS, JavaScript, React, Node, Bootstrap, CryptoCompare API',
     category: 'frontend, crypto, React',
-    image1: '/img/projects/crypto/crypto1.jpg',
-    image2: '/img/projects/crypto/crypto2.jpg',
-    image3: '/img/projects/crypto/crypto3.jpg',
+    image1: '/img/projects/crypto/crypto-1.png',
+    image2: '/img/projects/crypto/crypto-2.png',
+    image3: '/img/projects/crypto/crypto-3.png',
   },
   {
     title: 'DeLeon Safety Solutions',
@@ -19,9 +19,9 @@ const projects = [
     techUsed:
       'HTML, CSS, JavaScript, React, Node, Bootstrap, CryptoCompare API',
     category: 'frontend, crypto, React',
-    image1: '/img/projects/crypto/crypto1.jpg',
-    image2: '/img/projects/crypto/crypto2.jpg',
-    image3: '/img/projects/crypto/crypto3.jpg',
+    image1: '/img/projects/dss/dss-1.png',
+    image2: '/img/projects/dss/dss-2.png',
+    image3: '/img/projects/dss/dss-3.png',
   },
   {
     title: "Hero's Corner",
@@ -31,9 +31,9 @@ const projects = [
     techUsed:
       'HTML, CSS, JavaScript, React, Node, Bootstrap, CryptoCompare API',
     category: 'frontend, crypto, React',
-    image1: '/img/projects/crypto/crypto1.jpg',
-    image2: '/img/projects/crypto/crypto2.jpg',
-    image3: '/img/projects/crypto/crypto3.jpg',
+    image1: '/img/projects/hero/hero-1.png',
+    image2: '/img/projects/hero/hero-2.png',
+    image3: '/img/projects/hero/hero-3.png',
   },
   {
     title: 'Texas Latino Workers Center',
@@ -43,7 +43,7 @@ const projects = [
     techUsed:
       'HTML, CSS, JavaScript, React, Node, Bootstrap, CryptoCompare API',
     category: 'frontend, crypto, React',
-    image1: '/img/projects/crypto/crypto1.jpg',
+    image1: '/img/projects/crypto/crypto-1.png',
     image2: '/img/projects/crypto/crypto2.jpg',
     image3: '/img/projects/crypto/crypto3.jpg',
   },
@@ -55,19 +55,19 @@ const projects = [
     techUsed:
       'HTML, CSS, JavaScript, React, Node, Bootstrap, CryptoCompare API',
     category: 'frontend, crypto, React',
-    image1: '/img/projects/crypto/crypto1.jpg',
+    image1: '/img/projects/crypto/crypto-1.png',
     image2: '/img/projects/crypto/crypto2.jpg',
     image3: '/img/projects/crypto/crypto3.jpg',
   },
   {
-    title: 'Serials',
+    title: 'Serial Killers',
     subtitle: 'Learn what makes some of the most evil people tick.',
     description:
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ',
     techUsed:
       'HTML, CSS, JavaScript, React, Node, Bootstrap, CryptoCompare API',
     category: 'frontend, crypto, React',
-    image1: '/img/projects/crypto/crypto1.jpg',
+    image1: '/img/projects/crypto/crypto-1.png',
     image2: '/img/projects/crypto/crypto2.jpg',
     image3: '/img/projects/crypto/crypto3.jpg',
   },

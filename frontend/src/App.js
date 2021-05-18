@@ -7,6 +7,7 @@ import ProjectsPage from './pages/ProjectsPage'
 import ServicesPage from './pages/ServicesPage'
 import Header from './components/Header'
 import Footer from './components/Footer'
+import ProjectPage from './pages/ProjectPage'
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Header />
       <Route path="/about" component={AboutPage} />
       <Route path="/contact" component={ContactPage} />
+      <Route path="/projects/:id" component={ProjectPage} />
       <Route path="/projects" component={ProjectsPage} />
       <Route path="/services" component={ServicesPage} />
       <Route path="/" component={HomePage} exact />
