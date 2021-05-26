@@ -127,7 +127,7 @@ a:link {
 
 .panel-body {
   border: 1px solid #dddddd;
-  background: #efefef;
+
   color: #333333;
   padding: 5px;
   border-top: none;
@@ -257,6 +257,11 @@ a:link {
 
 .services_heroBanner {
   margin-top: 10rem;
+}
+
+.services-container {
+  display: flex;
+  flex-direction: column;
 }
 
 /* Contact */

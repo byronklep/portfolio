@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 
-import { Accordion, Col } from 'react-bootstrap'
+import { Accordion, Col, ListGroup } from 'react-bootstrap'
 
 const Accord = () => {
   const [activeId, setActiveId] = useState('0')
@@ -15,7 +15,7 @@ const Accord = () => {
 
   return (
     <>
-      <Col md={8}>
+      <Col md={10} className="mx-auto">
         <Accordion defaultActiveKey={activeId}>
           <div
             className={
@@ -35,10 +35,25 @@ const Accord = () => {
 
             <Accordion.Collapse eventKey="0">
               <div className="panel-body">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Vestibulum placerat, lorem id bibendum egestas, nisl ante
-                facilisis lacus, non condimentum magna nulla id purus. Proin
-                euismod orci a dui dignissim scelerisque.
+                <ListGroup variant="flush">
+                  <ListGroup.Item>
+                    Develop functional and appealing web/mobile applications
+                    based on usability.
+                  </ListGroup.Item>
+                  <ListGroup.Item>
+                    Provide website maintenance and enhancements.
+                  </ListGroup.Item>
+                  <ListGroup.Item>
+                    Use a combination of markup languages to write web pages.
+                  </ListGroup.Item>
+                </ListGroup>
+                <div className="text-center">
+                  <img
+                    className="img-fluid text-center"
+                    src="https://mdbootstrap.com/img/Photos/Others/nature.jpeg"
+                    alt="coding"
+                  />
+                </div>
               </div>
             </Accordion.Collapse>
           </div>
@@ -61,10 +76,25 @@ const Accord = () => {
 
             <Accordion.Collapse eventKey="1">
               <div className="panel-body">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Vestibulum placerat, lorem id bibendum egestas, nisl ante
-                facilisis lacus, non condimentum magna nulla id purus. Proin
-                euismod orci a dui dignissim scelerisque.
+                <ListGroup variant="flush">
+                  <ListGroup.Item>
+                    Develop server-side application logic and API services.
+                  </ListGroup.Item>
+                  <ListGroup.Item>
+                    Seamless integration with front-end codebase.
+                  </ListGroup.Item>
+                  <ListGroup.Item>
+                    API security, database utilization/management, caching and
+                    best practices.
+                  </ListGroup.Item>
+                </ListGroup>
+                <div className="text-center">
+                  <img
+                    className="img-fluid text-center"
+                    src="https://mdbootstrap.com/img/Photos/Others/nature.jpeg"
+                    alt="coding"
+                  />
+                </div>
               </div>
             </Accordion.Collapse>
           </div>
@@ -86,21 +116,29 @@ const Accord = () => {
 
             <Accordion.Collapse eventKey="2">
               <div className="panel-body">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Vestibulum placerat, lorem id bibendum egestas, nisl ante
-                facilisis lacus, non condimentum magna nulla id purus. Proin
-                euismod orci a dui dignissim scelerisque.
+                <ListGroup variant="flush">
+                  <ListGroup.Item>
+                    Build & setup new development tools and infrastructure.
+                  </ListGroup.Item>
+                  <ListGroup.Item>
+                    Convey needs of stakeholders to developers.
+                  </ListGroup.Item>
+                  <ListGroup.Item>
+                    Automation, testing & analysis to improve development and
+                    release time.
+                  </ListGroup.Item>
+                </ListGroup>
+                <div className="text-center">
+                  <img
+                    className="img-fluid text-center"
+                    src="https://mdbootstrap.com/img/Photos/Others/nature.jpeg"
+                    alt="coding"
+                  />
+                </div>
               </div>
             </Accordion.Collapse>
           </div>
         </Accordion>
-      </Col>
-      <Col md={4}>
-        <img
-          src="https://mdbootstrap.com/img/Photos/Others/nature.jpeg"
-          width={300}
-          alt="coding"
-        />
       </Col>
     </>
   )

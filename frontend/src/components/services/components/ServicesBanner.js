@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react'
-import { Container, Button } from 'react-bootstrap'
+import { Container } from 'react-bootstrap'
 import { Parallax } from 'react-parallax'
 import WOW from 'wowjs'
 import Space from '../../../img/spaceEarth.jpeg'

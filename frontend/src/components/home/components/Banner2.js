@@ -11,7 +11,7 @@ const Banner2 = () => {
         bgImage={Coding}
         className="codingBanner ">
         <div className="coding_heroBanner">
-          <Container className="text-white align-content-center">
+          <Container className="text-white text-center">
             <h1>Hello, I am Sam.</h1>
             <p className="lead">
               I am a full-stack developer from Houston, TX.
