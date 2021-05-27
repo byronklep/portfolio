@@ -1,4 +1,7 @@
 import React, { useState } from 'react'
+import frontend from '../../../img/svg/frontend.svg'
+import backend from '../../../img/svg/backend.svg'
+import devops from '../../../img/svg/devops.svg'
 
 import { Accordion, Col, ListGroup } from 'react-bootstrap'
 
@@ -16,7 +19,7 @@ const Accord = () => {
   return (
     <>
       <Col md={10} className="mx-auto">
-        <Accordion defaultActiveKey={activeId}>
+        <Accordion className='accordion' defaultActiveKey={activeId}>
           <div
             className={
               activeId === '0' ? 'panel-wrap active-panel' : 'panel-wrap'
@@ -49,8 +52,9 @@ const Accord = () => {
                 </ListGroup>
                 <div className="text-center">
                   <img
-                    className="img-fluid text-center"
-                    src="https://mdbootstrap.com/img/Photos/Others/nature.jpeg"
+                    className=" text-center"
+                    src={frontend}
+                    height={400}
                     alt="coding"
                   />
                 </div>
@@ -90,9 +94,10 @@ const Accord = () => {
                 </ListGroup>
                 <div className="text-center">
                   <img
-                    className="img-fluid text-center"
-                    src="https://mdbootstrap.com/img/Photos/Others/nature.jpeg"
+                    className=" text-center"
+                    src={backend}
                     alt="coding"
+                    height={400}
                   />
                 </div>
               </div>
@@ -130,8 +135,9 @@ const Accord = () => {
                 </ListGroup>
                 <div className="text-center">
                   <img
-                    className="img-fluid text-center"
-                    src="https://mdbootstrap.com/img/Photos/Others/nature.jpeg"
+                    className=" text-center"
+                    src={devops}
+                    height={400}
                     alt="coding"
                   />
                 </div>

@@ -51,7 +51,7 @@ const ProjGridHome = () => {
                       {pjt.description}
                     </Card.Text>
                     <Link to={`/projects/${pjt._id}`}>
-                      <Button variant="primary">Learn more</Button>
+                      <Button className="btn-black">Learn more</Button>
                     </Link>
                   </Card.Body>
                 </Card>

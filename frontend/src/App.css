@@ -43,6 +43,24 @@ a:link {
   font-size: 24px;
 }
 
+.navbar {
+  background-color: white;
+}
+
+.footer {
+  background-color: black;
+}
+
+.btn-black {
+  background-color: black;
+  border: none;
+}
+.btn-black:hover {
+  background-color: yellow;
+  color: black;
+  border: none;
+}
+
 /* Home Page */
 
 .heroBanner {
@@ -100,6 +118,10 @@ a:link {
 
 /* Accordian */
 
+.accordion {
+  border: none;
+}
+
 .panel-wrap {
   margin-bottom: 5px;
 }
@@ -112,7 +134,7 @@ a:link {
 }
 
 .panel-header {
-  border: 1px solid #cccc;
+  border: none;
   font-weight: normal;
   border-radius: 5px 5px 0px 0px;
 }
