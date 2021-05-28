@@ -47,9 +47,9 @@ const ProjGridHome = () => {
                     <Link to={`/projects/${pjt._id}`}>
                       <Card.Title as="h3">{pjt.title}</Card.Title>
                     </Link>
-                    <Card.Text className="pjt-card-text">
+                    {/* <Card.Text className="pjt-card-text">
                       {pjt.description}
-                    </Card.Text>
+                    </Card.Text> */}
                     <Link to={`/projects/${pjt._id}`}>
                       <Button className="btn-black">Learn more</Button>
                     </Link>

@@ -6,6 +6,7 @@ import WOW from 'wowjs'
 
 import Houston from '../../../img/houston.jpeg'
 import Sam from '../../../img/sam_portfolio1.png'
+import background from '../../../img/about.png'
 
 const ABanner = () => {
   useEffect(() => {
@@ -18,22 +19,19 @@ const ABanner = () => {
       <Parallax
         strength={300}
         blur={{ min: -15, max: 15 }}
-        bgImage={Houston}
+        bgImage={background}
         className="aboutHeroBanner">
         <div className="city_heroBanner">
-          <Container className="about-text-main">
+          <Container className="about-text-main wow bounceInDown">
             <Row>
               <Col md={8}>
                 <h1 className="about-main-font1">Greetings!</h1>
                 <p className="main-font-about">
                   Welcome to my portfolio. As you can see, I was born & raised
-                  in humid, Houston, TX way back in the year 1984.
-                </p>
-                <p className="main-font-about">
-                  I've been a techno-enthusiast ever since my Dad brought home
-                  an old, used Gateway PC with windows 95 on it. Soon enough, I
-                  found myself tinkering with the myserious machine--
-                  discovering a lifelong passion for all-things-tech!
+                  in humid, Houston, TX way back in the year 1984. Lorem ipsum
+                  dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                  tempo. in humid, Houston, TX way back in the year 1984. Lorem
+                  ipsum dolor sit amet, consectetur adipiscing elit.
                 </p>
               </Col>
               <Col>
@@ -47,31 +45,6 @@ const ABanner = () => {
             </Row>
           </Container>
         </div>
-        {/* <div className="city_heroBanner d-flex">
-          <Container className="text-light wow fadeInUp ">
-            <div className="f-image">
-              <img
-                src={Sam}
-                className="float-right mb-3"
-                alt="Sam Klepper"
-                height={300}
-                width={300}
-              />
-
-              <h1 className="main-font1">Hello, I am Sam.</h1>
-              <p className="main-font2">
-                I am a full-stack developer from Houston, TX.
-                <br />
-                Check out my work.
-              </p>
-              <p className="ml-5">
-                <Link to="/about">
-                  <Button variant="primary">About me</Button>
-                </Link>
-              </p>
-            </div>
-          </Container>
-        </div> */}
       </Parallax>
     </>
   )

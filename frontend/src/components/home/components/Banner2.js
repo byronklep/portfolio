@@ -16,7 +16,8 @@ const Banner2 = () => {
             <p className="lead">
               I am a full-stack developer from Houston, TX.
               <br />
-              Check out my work.
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempo
             </p>
           </Container>
         </div>
