@@ -28,8 +28,8 @@ export default class Testimonials extends Component {
     const settings = {
       dots: true,
       infinite: true,
-      slidesToShow: 2,
-      slidesToScroll: 2,
+      slidesToShow: 1,
+      slidesToScroll: 1,
       autoplay: true,
       nextArrow: <SampleNextArrow />,
       prevArrow: <SamplePrevArrow />,
@@ -37,8 +37,8 @@ export default class Testimonials extends Component {
         {
           breakpoint: 1024,
           settings: {
-            slidesToShow: 2,
-            slidesToScroll: 2,
+            slidesToShow: 1,
+            slidesToScroll: 1,
             infinite: true,
             dots: true,
           },
@@ -46,9 +46,9 @@ export default class Testimonials extends Component {
         {
           breakpoint: 600,
           settings: {
-            slidesToShow: 2,
-            slidesToScroll: 2,
-            initialSlide: 2,
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            initialSlide: 1,
           },
         },
         {
@@ -63,39 +63,6 @@ export default class Testimonials extends Component {
     return (
       <div className="container testimonial-container mb-5">
         <Slider {...settings}>
-          <div>
-            <blockquote className="blockquote">
-              <p className="test-font">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Vestibulum placerat, lorem id bibendum egestas.
-              </p>
-              <footer className="blockquote-footer text-center">
-                John Doe <cite title="Source Title">Digital Crafts</cite>
-              </footer>
-            </blockquote>
-          </div>
-          <div>
-            <blockquote className="blockquote">
-              <p className="test-font">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Vestibulum placerat, lorem id bibendum egestas.
-              </p>
-              <footer className="blockquote-footer text-center">
-                John Doe <cite title="Source Title">Digital Crafts</cite>
-              </footer>
-            </blockquote>
-          </div>
-          <div>
-            <blockquote className="blockquote">
-              <p className="test-font">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Vestibulum placerat, lorem id bibendum egestas.
-              </p>
-              <footer className="blockquote-footer text-center">
-                John Doe <cite title="Source Title">Digital Crafts</cite>
-              </footer>
-            </blockquote>
-          </div>
           <div>
             <blockquote className="blockquote">
               <p className="test-font">
