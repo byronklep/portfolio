@@ -24,16 +24,16 @@ const projects = [
     image3: '/img/projects/dss/dss-3.png',
   },
   {
-    title: "Hero's Corner",
-    subtitle: "Where the Hero's shop.",
+    title: 'Edge196',
+    subtitle: 'Think Global. Go Global.',
     description:
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ',
     techUsed:
       'HTML, CSS, JavaScript, React, Node, Bootstrap, CryptoCompare API',
     category: 'frontend, crypto, React',
-    image1: '/img/projects/hero/hero-1.png',
-    image2: '/img/projects/hero/hero-2.png',
-    image3: '/img/projects/hero/hero-3.png',
+    image1: '/img/projects/edge/edge-1.png',
+    image2: '/img/projects/edge/edge-2.png',
+    image3: '/img/projects/edge/edge-3.png',
   },
   {
     title: 'Texas Latino Workers Center',
@@ -43,33 +43,33 @@ const projects = [
     techUsed:
       'HTML, CSS, JavaScript, React, Node, Bootstrap, CryptoCompare API',
     category: 'frontend, crypto, React',
-    image1: '/img/projects/crypto/crypto-1.png',
-    image2: '/img/projects/crypto/crypto2.jpg',
-    image3: '/img/projects/crypto/crypto3.jpg',
+    image1: '/img/projects/tlwc/tlwc-1.png',
+    image2: '/img/projects/tlwc/tlwc-2.png',
+    image3: '/img/projects/tlwc/tlwc-3.png',
   },
   {
-    title: 'Fungi API',
-    subtitle: 'Take a closer look at the invisible world around you.',
+    title: 'Webcam App',
+    subtitle: 'Take a look at the world around you.',
     description:
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ',
     techUsed:
       'HTML, CSS, JavaScript, React, Node, Bootstrap, CryptoCompare API',
     category: 'frontend, crypto, React',
-    image1: '/img/projects/crypto/crypto-1.png',
-    image2: '/img/projects/crypto/crypto2.jpg',
-    image3: '/img/projects/crypto/crypto3.jpg',
+    image1: '/img/projects/webcam/webcam-1.png',
+    image2: '/img/projects/webcam/webcam-2.png',
+    image3: '/img/projects/webcam/webcam-3.png',
   },
   {
-    title: 'Serial Killers',
-    subtitle: 'Learn what makes some of the most evil people tick.',
+    title: 'Search It!',
+    subtitle: 'See the web. Learn something new.',
     description:
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ',
     techUsed:
       'HTML, CSS, JavaScript, React, Node, Bootstrap, CryptoCompare API',
     category: 'frontend, crypto, React',
-    image1: '/img/projects/crypto/crypto-1.png',
-    image2: '/img/projects/crypto/crypto2.jpg',
-    image3: '/img/projects/crypto/crypto3.jpg',
+    image1: '/img/projects/search/search-1.png',
+    image2: '/img/projects/search/search-2.png',
+    image3: '/img/projects/search/search-3.png',
   },
 ]
 
