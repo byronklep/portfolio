@@ -2,6 +2,7 @@ const projects = [
   {
     title: 'Crypto Wise',
     subtitle: 'Get wise about the latest crypto trends.',
+    url: 'https://crypto-wise.herokuapp.com/',
     description:
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ',
     techUsed:
@@ -14,6 +15,7 @@ const projects = [
   {
     title: 'DeLeon Safety Solutions',
     subtitle: 'Keeping you safe in trying times.',
+    url: 'https://www.deleonsafety.com/',
     description:
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ',
     techUsed:
@@ -26,6 +28,7 @@ const projects = [
   {
     title: 'Edge196',
     subtitle: 'Think Global. Go Global.',
+    url: 'https://edge196-changes.netlify.app/',
     description:
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ',
     techUsed:
@@ -38,6 +41,7 @@ const projects = [
   {
     title: 'Texas Latino Workers Center',
     subtitle: 'The ability and know-how to keep you safe.',
+    url: 'https://tlwc.herokuapp.com/',
     description:
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ',
     techUsed:
@@ -50,6 +54,7 @@ const projects = [
   {
     title: 'Webcam App',
     subtitle: 'Take a look at the world around you.',
+    url: 'https://w3bcam-app.herokuapp.com/',
     description:
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ',
     techUsed:
@@ -62,6 +67,7 @@ const projects = [
   {
     title: 'Search It!',
     subtitle: 'See the web. Learn something new.',
+    url: 'https://seersearch.herokuapp.com/',
     description:
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ',
     techUsed:

@@ -38,6 +38,13 @@ const ProjectPage = ({ match }) => {
               </strong>
             </ListGroup.Item>
             <ListGroup.Item>
+              <a href={data.url} target="_blank" rel="noreferrer">
+                <strong>
+                  <h5>{data.url}</h5>
+                </strong>
+              </a>
+            </ListGroup.Item>
+            <ListGroup.Item>
               <h6>{data.description}</h6>
             </ListGroup.Item>
           </ListGroup>
