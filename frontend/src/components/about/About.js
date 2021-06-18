@@ -1,11 +1,11 @@
 import ABanner from './components/ABanner'
-import History from './components/History'
+// import History from './components/History'
 
 const About = () => {
   return (
     <>
       <ABanner />
-      <History />
+      {/* <History /> */}
     </>
   )
 }
