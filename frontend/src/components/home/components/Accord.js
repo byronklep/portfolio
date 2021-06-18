@@ -18,8 +18,8 @@ const Accord = () => {
 
   return (
     <>
-      <Col md={10} className="mx-auto">
-        <Accordion className='accordion' defaultActiveKey={activeId}>
+      <Col md={8} className="mx-auto">
+        <Accordion className="accordion" defaultActiveKey={activeId}>
           <div
             className={
               activeId === '0' ? 'panel-wrap active-panel' : 'panel-wrap'

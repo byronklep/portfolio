@@ -26,14 +26,13 @@ const ABanner = () => {
           </Col>
         </Row>
         <Row>
-          <Col className="p-5">
-            <h1 className="about-main-font1">Greetings!</h1>
+          <Col lg={8} className="mx-auto p-5">
+            <h1 className="about-main-font1">Lorem ipsum!</h1>
             <p className="main-font-about">
-              Welcome to my portfolio. As you can see, I was born & raised in
-              humid, Houston, TX way back in the year 1984. Lorem ipsum dolor
-              sit amet, consectetur adipiscing elit, sed do eiusmod tempo. in
-              humid, Houston, TX way back in the year 1984. Lorem ipsum dolor
-              sit amet, consectetur adipiscing elit.
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eu
+              ultrices augue, eu lobortis mauris. Mauris rhoncus risus et lorem
+              pellentesque fermentum. Nullam condimentum tristique neque eget
+              tempus.
             </p>
           </Col>
         </Row>
